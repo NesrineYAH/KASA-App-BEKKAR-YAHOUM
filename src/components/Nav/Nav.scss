@@ -57,23 +57,24 @@
             text-transform: none;
             line-height: 142.6%;
             text-align: right;
-        }
 
-        &:focus {
-            font-size: 20px;
-            transform: scale(1.05);
-            text-decoration: underline;
-        }
 
-        &:visited {
-            font-size: 20px;
-            transform: scale(1.05);
-            text-decoration: underline;
-        }
+            &:focus {
+                font-size: 20px;
+                transform: scale(1.05);
 
-        &:hover {
-            transform: scale(1.05);
-            text-decoration: underline;
+            }
+
+            &:visited {
+                font-size: 20px;
+                transform: scale(1.05);
+                text-decoration: underline;
+            }
+
+            &:hover {
+                transform: scale(1.05);
+                text-decoration: underline;
+            }
         }
     }
 

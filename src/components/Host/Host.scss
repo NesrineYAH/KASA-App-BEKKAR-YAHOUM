@@ -12,6 +12,7 @@
         width: 80px;
 
     }
+
     &__img {
         border-radius: 50%;
         width: 64px;
@@ -19,6 +20,9 @@
         object-fit: cover;
         @include flex-end;
         margin-left: 35px;
+    }
 
+    @media screen and (min-width: $breakpoint-desktop) {
+        margin: 15px 0 0 12px;
     }
 }
