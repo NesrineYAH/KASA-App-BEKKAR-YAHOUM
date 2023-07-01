@@ -1,0 +1,28 @@
+.AboutBanner__conteneur {
+    width: 90%;
+    height: 150px;
+    position: relative;
+    top: 7%;
+    left: 5%;
+    border-radius: 20px;
+    z-index: 1;
+
+
+    .BannerContainer__img {
+        @include medium-radius;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        opacity: 1;
+    }
+
+    @media screen and (min-width: $breakpoint-desktop) {
+        width: 90%;
+        height: 200px;
+        left: 5%;
+        position: relative;
+        top: 0%;
+        z-index: 1;
+    }
+
+}
