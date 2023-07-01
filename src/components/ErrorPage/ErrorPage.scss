@@ -10,7 +10,7 @@
         margin: 12rem 0 1rem 0;
 
         @media screen and (min-width: $breakpoint-desktop) {
-            @include font(288px, 700);
+            @include font(240px, 700);
             margin: 0;
         }
     }
