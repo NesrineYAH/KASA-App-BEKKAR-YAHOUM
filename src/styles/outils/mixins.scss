@@ -1,6 +1,4 @@
 @mixin body-position {
-
-
   max-width: $Mmax;
   min-width: $Mmin;
   margin: auto;
@@ -86,6 +84,11 @@
 @mixin row-center {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+@mixin flex-endCenter {
+  display: flex;
+  align-items: flex-end;
   justify-content: center;
 }
 

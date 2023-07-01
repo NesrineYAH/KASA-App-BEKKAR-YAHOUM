@@ -15,26 +15,15 @@ $about-background: $background-color url(../../assets/images/banner/aboutBanner.
 $about-background-mobile: $background-color url(../../assets/images/banner/backgroundbannermobile.png);
 $banner-background: $background-color url(../../assets/images/banner/homeBanner.png);
 
-$collapseWidth: 80%;
-$min: 1400px;
-$max: 1600px;
+
+$Mmin: 375px;
+$Mmax: 768px;
 $breakpoint-desktop: 769px;
-
-$breakpoints: (
-        small: 350px,
-        medium: 768px,
-        large: 992px,
-        xlarge: 1200px,
-);
-
 
 
 $small: 480px;
 $medium: 992px;
 $large: 1280px;
 
-
 $size: 24px;
-$Mmin: 375px;
-$Mmax: 768px;
-$widthCard: 100%;
+$collapseWidth: 80%;

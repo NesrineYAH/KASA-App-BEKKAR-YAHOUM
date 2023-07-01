@@ -109,7 +109,6 @@
       width: 15%;
     }
 
-
     &__nom-Image {
       @extend %flex-rowCenterWithSpace;
       order: 1;
@@ -137,6 +136,7 @@
 .description-centent {
   width: 98%;
   @include flex-column;
+  padding-right: 4px;
 
   &__description {
     width: 100%;
@@ -156,11 +156,11 @@
     margin-top: -25px;
 
     &__description {
-      width: 45%;
+      width: 46%;
     }
 
     &__equipement {
-      width: 45%;
+      width: 46%;
     }
   }
 
